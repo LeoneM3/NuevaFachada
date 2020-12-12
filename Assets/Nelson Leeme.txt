@@ -1,0 +1,15 @@
+Nombres de las variables que se colocaran en el script.
+
+BannerDr  =  banner de atras del escritorio derecho.
+
+BannerIz  =  banner de atras del escritorio izquierdo.
+
+Pantalla = pantalla del fondo del escritorio.
+
+ResepcionistaDr = Resepcionista que esta a la derecha y sera variable.
+ResepcionistaIz = Resepcionista que esta a la izquierda y sera variable.
+
+
+nombredr = el logo en vertical de expomype que va a la derecha de la pantalla.
+nombreiz = el logo en vertical de expomype que va a la izquierda de la pantalla.
+
