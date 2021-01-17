@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/SCENES/facha.unity
     guid: 0611c65928f38f24d9899037c5632f6b
-  - enabled: 1
+  - enabled: 0
     path: Assets/SCENES/lobby.unity
     guid: a97788ff762d74c40bb3fb2a7dec05cf
   m_configObjects: {}
