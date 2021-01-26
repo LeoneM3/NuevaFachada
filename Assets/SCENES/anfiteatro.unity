@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 895316970}
   - component: {fileID: 895316969}
   m_Layer: 5
-  m_Name: AnfiBannerFondo
+  m_Name: AnfiPantallaFondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
