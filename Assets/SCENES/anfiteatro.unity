@@ -1002,7 +1002,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618444709}
   m_LocalRotation: {x: 0, y: -0.06144054, z: 0, w: 0.9981108}
-  m_LocalPosition: {x: 0, y: 0, z: 8.98}
+  m_LocalPosition: {x: 0, y: 0, z: 8.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1031036735}
@@ -1010,7 +1010,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -7.045, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -337.15, y: -183.58}
+  m_AnchoredPosition: {x: -337.07, y: -183.58}
   m_SizeDelta: {x: 3.9548721, y: 2.5101671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618444711
@@ -1176,7 +1176,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652020656}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 54.22, z: -109.81001}
+  m_LocalPosition: {x: 3.27, y: 54.37, z: -109.86}
   m_LocalScale: {x: 1.593401, y: 1.5242581, z: 1.1941849}
   m_Children: []
   m_Father: {fileID: 543155048}
@@ -1222,7 +1222,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5773193ef5df2a74e936f791a743920d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09cc0cf06c1100e4ebbce90130be5dcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1567,7 +1567,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895316967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.903}
+  m_LocalPosition: {x: 0, y: 0, z: 8.883}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1031036735}
@@ -1575,7 +1575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.931, y: -183.464}
+  m_AnchoredPosition: {x: -331.851, y: -183.464}
   m_SizeDelta: {x: 5.768431, y: 3.78728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &895316969
@@ -2119,17 +2119,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053262318}
-  m_LocalRotation: {x: -0, y: 0.061443403, z: -0, w: 0.99811065}
-  m_LocalPosition: {x: 0, y: 0, z: 9.589999}
+  m_LocalRotation: {x: 0, y: 0.06161473, z: 0, w: 0.99810004}
+  m_LocalPosition: {x: 0, y: 0, z: 8.793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1031036735}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 7.045, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 7.065, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -326.55, y: -183.41}
-  m_SizeDelta: {x: 4.0997195, y: 2.6170144}
+  m_AnchoredPosition: {x: -326.75, y: -183.69}
+  m_SizeDelta: {x: 3.736319, y: 2.3396306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053262320
 MonoBehaviour:
