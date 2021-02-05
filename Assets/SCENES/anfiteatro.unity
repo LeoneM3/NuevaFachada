@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 374728628}
   - component: {fileID: 374728627}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1940,7 +1940,7 @@ GameObject:
   - component: {fileID: 1031036733}
   - component: {fileID: 1031036732}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2595,6 +2595,7 @@ GameObject:
   - component: {fileID: 1581216982}
   - component: {fileID: 1581216981}
   - component: {fileID: 1581216980}
+  - component: {fileID: 1581216984}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2685,6 +2686,23 @@ RectTransform:
   m_AnchoredPosition: {x: 903, y: 384}
   m_SizeDelta: {x: 1806, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1581216984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581216979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99a83c5d1966854299732b585684fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BannerIzq: {fileID: 1879707630}
+  BannerDer: {fileID: 850514788}
+  BannerFondoDer: {fileID: 1053262320}
+  BannerFondoIzq: {fileID: 618444711}
+  PantallaFondo: {fileID: 895316969}
 --- !u!1 &1641471026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,7 +2716,7 @@ GameObject:
   - component: {fileID: 1641471028}
   - component: {fileID: 1641471027}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2797,7 +2815,7 @@ GameObject:
   - component: {fileID: 1652472280}
   - component: {fileID: 1652472279}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3226,7 +3244,7 @@ GameObject:
   - component: {fileID: 2146282922}
   - component: {fileID: 2146282921}
   m_Layer: 5
-  m_Name: AnfiBannerDr
+  m_Name: AnfiBannerDr_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
