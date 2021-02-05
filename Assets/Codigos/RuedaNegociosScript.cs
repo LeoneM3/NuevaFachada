@@ -1,22 +1,23 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
-using System.Runtime.InteropServices;
 using System;
-using System.IO;
-public class AnfiteatroScript : baseMostrarBanners
+public class RuedaNegociosScript : baseMostrarBanners
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
+       
     }
-    public RawImage BannerIzq;
-    public RawImage BannerDer;
-    public RawImage BannerFondoDer;
-    public RawImage BannerFondoIzq;
-    public RawImage PantallaFondo;
+
+    public RawImage Banner1;
+    public RawImage Banner2;
+    public RawImage Banner3;
+    public RawImage Banner4;
+    public RawImage Banner5;
+    public RawImage Banner6;
+    public RawImage Banner7;
 
     // Update is called once per frame
     void Update()
@@ -33,20 +34,21 @@ public class AnfiteatroScript : baseMostrarBanners
     #endif
     }
 
+  
     void ImagenDb(string url){
 
          StartCoroutine(JsonRequest(url, (UnityWebRequest req) => {
               var json_text = req.downloadHandler.text;
-              Anfiteatro anfiteatro = JsonUtility.FromJson<Anfiteatro>(json_text);                     
+              RuedaNegocios anfiteatro = JsonUtility.FromJson<RuedaNegocios>(json_text);                     
+              cargarImagen(anfiteatro.Banner1, this.Banner1 );
+              cargarImagen(anfiteatro.Banner2, this.Banner2 );
+              cargarImagen(anfiteatro.Banner3, this.Banner3 );
+              cargarImagen(anfiteatro.Banner4, this.Banner4 );
+              cargarImagen(anfiteatro.Banner5, this.Banner5 );
+              cargarImagen(anfiteatro.Banner6, this.Banner6 );
+              cargarImagen(anfiteatro.Banner7, this.Banner7 );
 
-                cargarImagen(anfiteatro.BannerDer, this.BannerDer );
-                cargarImagen(anfiteatro.BannerIzq, this.BannerIzq );
-                cargarImagen(anfiteatro.BannerFondoIzq, this.BannerFondoIzq );
-                cargarImagen(anfiteatro.BannerFondoDer, this.BannerFondoDer );
-                cargarImagen(anfiteatro.PantallaFondo, this.PantallaFondo );
-               
-
-                var imagenes = this.GetChildImagenes("Canvas");
+               var imagenes = this.GetChildImagenes("Canvas");
                 if (imagenes.Length > 0) {
                     int t = (int)DateTime.Now.Ticks;
                     UnityEngine.Random.InitState( t );
@@ -56,7 +58,7 @@ public class AnfiteatroScript : baseMostrarBanners
                     int n = UnityEngine.Random.Range(0, imagenes.Length);
                     if (!string.IsNullOrWhiteSpace(anfiteatro.Icono)) {
                     StartCoroutine(ImagenRequest(anfiteatro.Icono, (UnityWebRequest req1) => {
-                    if (req1.result == UnityWebRequest.Result.Success) {
+                            if (req1.result == UnityWebRequest.Result.Success) {
                                 imagenes[n].texture = DownloadHandlerTexture.GetContent(req1);
                                 imagenes[n].color = new Color(255,255,255,225);
                             }
@@ -67,16 +69,19 @@ public class AnfiteatroScript : baseMostrarBanners
         }));
 
     }
+
 }
 
 [System.Serializable]
-    public class Anfiteatro
+    public class RuedaNegocios
     {
+        public string Banner1;
+        public string Banner2;
+        public string Banner3;
+        public string Banner4;
+        public string Banner5;
+        public string Banner6;
+        public string Banner7;
         public string Icono;
-        public string BannerIzq;
-        public string BannerDer;
-        public string BannerFondoDer;
-        public string BannerFondoIzq;
-        public string PantallaFondo;
 
     }
