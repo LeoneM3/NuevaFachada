@@ -2112,12 +2112,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Banner1: {fileID: 2091180638}
-  Banner2: {fileID: 0}
+  Banner2: {fileID: 341370045}
   Banner3: {fileID: 1952019607}
   Banner4: {fileID: 45153129}
-  Banner5: {fileID: 0}
-  Banner6: {fileID: 0}
-  Banner7: {fileID: 0}
+  Banner5: {fileID: 1923767825}
+  Banner6: {fileID: 1988940798}
+  Banner7: {fileID: 1481743714}
 --- !u!1 &1436159324
 GameObject:
   m_ObjectHideFlags: 0
